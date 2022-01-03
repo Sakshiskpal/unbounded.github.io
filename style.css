@@ -1,0 +1,1425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /* overflow: hidden; */
+}
+
+
+/*===================================================login page css codin :start */
+
+.container {
+    background-color: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* padding: 0.5em; */
+    align-items: center;
+}
+
+.header .logo {
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 35px;
+    /* top: 36px; */
+}
+
+.header .logo span {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 21px;
+    color: #0023E7;
+}
+
+.header .logo h2 {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 21px;
+    color: #0023E7;
+    opacity: 0.7;
+}
+
+.header .logo .bold {
+    color: #0023E7;
+    font-weight: bold;
+}
+
+.header .menu {
+    /* display: inline-block; */
+    cursor: pointer;
+}
+
+.header .menu img {
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+    margin-left: 70vw;
+    border-radius: 50%;
+}
+
+.header .menu .menu_bar {
+    width: 28px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    right: 2.5%;
+    /* margin: 5px 0px 0px 0px; */
+}
+
+.header .menu .menu_bar1 {
+    width: 28px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    right: 2.5%;
+    margin: 7.5px 0px 0px 0px;
+}
+
+.header .menu .menu_bar2 {
+    width: 28px;
+    height: 2.5px;
+    background: #000000;
+    position: absolute;
+    right: 2.5%;
+    margin: 15px 0px 0px 0px;
+}
+
+
+/* wlcome section */
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome span {
+    font-family: Roboto;
+    font-weight: 900;
+    font-Style: normal;
+    font-Size: 30px;
+    Line-height: 22.27px;
+    margin-top: 40px;
+}
+
+.welcome .underline {
+    width: 134px;
+    height: 4px;
+    top: 135px;
+    background-color: #536DFE;
+    margin-top: 20px;
+}
+
+.section {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.section .image {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+.section .image img {
+    width: 100%;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.section .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    height: auto;
+}
+
+.section .form .labels  {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .form .labels input {
+    margin: 20px;
+    width: 346px;
+    height: 48px;
+    left: -1px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.section .form .labels .btn {
+    width: 174px;
+    height: 48px;
+    left: 120px;
+    top: 435px;
+    background: linear-gradient(0deg, #536DFE, #536DFE), #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.section .form p {
+    margin-left: 100px;
+}
+
+.section .form .signup {
+    display: block;
+    width: 191px;
+    height: 18px;
+    left: 95px;
+    top: 510px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+/* =============================================login page css code ended here ================================= */
+
+
+/*          ================================= home up page css coding starts here ================================= */
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.login_btn {
+    flex: 1;
+    text-align: right;
+}
+
+.header .login_btn .btn {
+    width: 134px;
+    height: 38px;
+    right: 80px;
+    background: linear-gradient(0deg, #536DFE, #536DFE), #FFFFFF;
+    border-radius: 9.8125px;
+    border: none;
+    color: #FFFFFF;
+    /* margin-left: 75rem; */
+    font-size: 18px;
+}
+
+.header .login_btn .btn:hover {
+    background-color: #FFFFFF;
+    color: #6C63FF;
+}
+
+.header .login_btn .btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header .login_btn .sign_btn {
+    width: 134px;
+    height: 38px;
+    left: 70px;
+    top: 450px;
+    background: #fff;
+    border: 0.520833px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9.8125px;
+    color: #536DFE;
+}
+
+.header .login_btn .btn:hover {
+    background-color: #6C63FF;
+    color: #FFFFFF;
+}
+
+.header .login_btn .sign_btn a {
+    text-decoration: none;
+    color: #536DFE;
+}
+
+.devide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    /* width: 40%;
+    height: 490px; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 50px;
+    margin-top: 50px;
+}
+
+.content .pera {
+    width: 100%;
+    height: auto;
+}
+
+.devide .content p {
+    width: 440px;
+    height: 275px;
+    margin-left: 63px;
+    margin-top: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 15px; */
+    color: #000000;
+}
+
+.devide .content .btn {
+    width: 154px;
+    height: 48px;
+    right: 80px;
+    top: 50rem;
+    background: linear-gradient(0deg, #536DFE, #536DFE), #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    margin: 20px;
+    margin-left: 63px;
+    font-size: 20px;
+}
+
+.devide .content .btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.devide .image {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 60px;
+}
+
+.image img {
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    margin-top: 0px;
+    right: 100px;
+}
+
+
+/* ------------------------------display 2 css code start here     */
+
+.display2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.heading span {
+    font-family: Roboto;
+    font-weight: 900;
+    font-Style: normal;
+    font-Size: 30px;
+    Line-height: 22.27px;
+}
+
+.heading .un_line {
+    width: 154px;
+    height: 4px;
+    background-color: #536DFE;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.flex::last_child {
+    padding-bottom: 30px;
+}
+
+.flex .column {
+    display: flex;
+    width: 395px;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 7px 4px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    /* padding: 16px; */
+    /* text-align: center; */
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.column .card .partition {
+    align-items: center;
+    text-align: initial;
+}
+
+.card .partition .headline {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card .partition .un_line {
+    width: 74px;
+    height: 2px;
+    background-color: #536DFE;
+    margin-top: 5px;
+}
+
+.column .card .partition .AI_content p {
+    font-size: 14px;
+    font-weight: 600;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+.flex .block_AI .column .card .image {
+    width: 50%;
+    padding: 20px;
+}
+
+.flex .block_AI .image img {
+    width: 279px;
+    height: 175px;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+
+/*----------------------------------------- display 2 css code end here   */
+
+
+/*---------------------------------- display 3 block css code starts here */
+
+.display3 {
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.success h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 46px;
+}
+
+.success h3 {
+    font-size: 45px;
+    font-weight: 700px;
+    color: #536DFE;
+    align-items: center;
+    text-align: center;
+}
+
+.success p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 30px;
+}
+
+.success button {
+    width: 154px;
+    height: 48px;
+    right: 80px;
+    top: 50rem;
+    background: linear-gradient(0deg, #536DFE, #536DFE), #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    /* margin: 20px; */
+    margin-left: 63px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.success button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* ----------------------------cards------------ */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #536DFE;
+    border-radius: 10px;
+    margin: 30px;
+    /* background-color: azure; */
+}
+
+.cards .card1 .left,
+.card2 .left,
+.card3 .left,
+.card4 .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.cards .card1 .image,
+.card2 .image,
+.card3 .image,
+.card4 .image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards .card1 .image img {
+    background-size: 100% 100%;
+}
+
+
+/* ----------------after login page end here and cls subject page css code start here  */
+
+.header .cls_option {
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.header .cls_option select {
+    width: 96px;
+    height: 28px;
+    left: 120px;
+    top: 13px;
+    background: rgba(204, 204, 204, 0.58);
+    border-radius: 7px;
+    border: none;
+}
+
+.header .cls_option select option {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section .subject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.sub_3 {
+    display: inline-block;
+}
+
+.sub_3 .btn {
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 9.8125px;
+    color: #6C63FF;
+    text-align: center;
+    background: #fff;
+    margin: 15px;
+    text-decoration: none;
+    padding: 15px 35px;
+}
+
+.sub_2 {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.sub_2 .btn {
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 7.8125px;
+    color: #6C63FF;
+    text-align: center;
+    background: #fff;
+    margin: 25px;
+    top: 520px;
+    text-decoration: none;
+    padding: 15px 35px;
+}
+
+.section .image {
+    width: 55%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section .image img {
+    background-size: 100% 100%;
+}
+
+
+/*------------------ cls subject css end here and maths content start here    */
+
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.math {
+    width: 62.5px;
+    height: 25px;
+    left: 156px;
+    margin-top: 68px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27.7181px;
+    line-height: 25px;
+    color: #3F3D56;
+}
+
+.math .un_line {
+    width: 49px;
+    height: 0px;
+    left: 160px;
+    top: 98px;
+    border-bottom: 2px solid #536DFE;
+    margin: 10px;
+}
+
+.math_content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.math_content button {
+    width: 354px;
+    height: 30px;
+    left: 76px;
+    top: 121px;
+    border-radius: 7.8125px;
+    margin-top: 25px;
+    background: transparent;
+    border: 1px solid #000;
+}
+
+button a {
+    text-decoration: none;
+    color: #6C63FF;
+    width: 136px;
+    height: 11px;
+    left: 14px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    /* color: #6C63FF; */
+}
+
+.math_content #btn {
+    background-color: #536DFE;
+    color: #fff;
+}
+
+.math_content #btn a {
+    color: #fff;
+}
+
+
+/* ===================================math css end   here  */
+
+@media only screen and (max-width: 718px) {
+    .container {
+        display: contents;
+    }
+    .header {
+        width: 100%;
+        height: 40px;
+    }
+    .header .logo {
+        position: absolute;
+        width: 140px;
+        height: 19px;
+        left: 10px;
+        top: 19px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        color: #0023E7;
+        opacity: 0.7;
+    }
+    .section {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+        width: 49px;
+        height: 49px;
+        left: 331px;
+        top: 9px;
+    }
+    .menu img {
+        width: 29px;
+        height: 29px;
+        left: 331px;
+        top: 9px;
+        background-size: 100% 100%;
+    }
+    .section .image {
+        /* position: absolute; */
+        width: 264px;
+        height: 142.65px;
+        left: 51px;
+        top: 120px;
+    }
+    .form {
+        position: absolute;
+        width: 174px;
+        height: 48px;
+        left: 102px;
+        top: 335px;
+        border-radius: 15px;
+    }
+    .form .labels {
+        display: inline-block;
+        width: 100%;
+    }
+    .form .labels input {
+        width: 316px;
+        height: 48px;
+    }
+    .form .labels .btn {
+        width: 174px;
+        height: 48px;
+        left: 102px;
+        top: 435px;
+    }
+    /*=------------------------------- login end signup start */
+    .welcome span {
+        width: 165px;
+        height: 22px;
+        left: 105px;
+        top: 38px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 22px;
+        color: #000000;
+        margin-top: 40px;
+    }
+    .welcome .underline {
+        width: 74px;
+        height: 0px;
+        left: 135px;
+        top: 130px;
+        border: 2px solid #536DFE;
+        margin-top: 10px;
+    }
+    .section .form1 {
+        top: 130px;
+    }
+    .section1 .form .labels input {
+        width: 315px;
+        height: 48px;
+        left: 33px;
+        top: 20px;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 15px;
+    }
+    .header {
+        /* height: 40px; */
+        align-items: center;
+        line-height: 20px;
+    }
+    .header .cls_option select {
+        width: 70px;
+        height: 18px;
+        background: rgba(204, 204, 204, 0.58);
+        border-radius: 7px;
+    }
+    .header .cls_option {
+        margin-left: 130px;
+    }
+    .section .subject {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sub_3 {
+        width: 100%;
+        display: flex;
+    }
+    .sub_3 .btn {
+        width: 99px;
+        height: 25px;
+        left: 15px;
+        top: 90px;
+        border: 0.520833px solid #000000;
+        box-sizing: border-box;
+        border-radius: 7.8125px;
+        line-height: 12.5px;
+        margin: 10px;
+    }
+    .sub_2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 90px;
+    }
+    .sub_2 .btn {
+        width: 99px;
+        height: 25px;
+        /* left: 25px; */
+        /* top: 90px; */
+        border: 0.520833px solid #000000;
+        box-sizing: border-box;
+        border-radius: 7.8125px;
+        line-height: 12.5px;
+        margin: 10px;
+    }
+    .section .image img {
+        width: 324px;
+        height: 182.91px;
+        left: 25px;
+        top: 214px;
+    }
+    /* maths content  */
+    .container_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .math {
+        width: 62.5px;
+        height: 25px;
+        left: 156px;
+        margin-top: 68px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21.7181px;
+        line-height: 25px;
+        color: #3F3D56;
+    }
+    .math .un_line {
+        width: 49px;
+        height: 0px;
+        left: 160px;
+        top: 98px;
+        border-bottom: 1.5px solid #536DFE;
+    }
+    .math_content {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .math_content button {
+        width: 254px;
+        height: 30px;
+        left: 76px;
+        top: 121px;
+        border-radius: 7.8125px;
+        margin-top: 20px;
+        background: transparent;
+        border: 1px solid #000;
+    }
+    button a {
+        text-decoration: none;
+        color: #6C63FF;
+        width: 136px;
+        height: 11px;
+        left: 14px;
+        top: 7px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        /* color: #6C63FF; */
+    }
+    .math_content #btn {
+        background-color: #536DFE;
+        color: #fff;
+    }
+    .math_content #btn a {
+        color: #fff;
+    }
+    /*=================== main home css responsive code start here   */
+    .header {
+        width: 100%;
+        height: 40px;
+    }
+    .header .logo h2 {
+        width: 140px;
+        height: 19px;
+        left: 10px;
+        top: 11px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #0023E7;
+        opacity: 0.7;
+    }
+    .header .logo span {
+        font-size: 22px;
+    }
+    .header .login_btn {
+        width: 100%;
+    }
+    .header .login_btn .btn {
+        width: 75px;
+        height: 25px;
+        /* margin-left: 290px; */
+        margin-top: 10px;
+        background: #536DFE;
+        border-radius: 7px;
+    }
+    .header .login_btn .sign_btn {
+        width: 75px;
+        height: 25px;
+        /* margin-left: 290px; */
+        margin-top: 10px;
+        background: #fff;
+        border-radius: 7px;
+    }
+    .hrader .login_btn button {
+        width: 60px;
+        height: 20px;
+        left: 292px;
+        top: 10px;
+        background: #536DFE;
+        border-radius: 7px;
+        margin-left: 300px;
+    }
+    .devide {
+        display: flex;
+        flex-direction: row;
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .content .pera {
+        width: 153px;
+        height: 75px;
+    }
+    .devide .content p {
+        width: 153px;
+        height: 75px;
+        left: 24px;
+        top: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12.5965px;
+        color: #3F3D56;
+        margin: 50px 0 10px 20px;
+    }
+    .devide .content .btn {
+        width: 80px;
+        height: 22px;
+        left: 16px;
+        top: 4px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9.91345px;
+        line-height: 12px;
+        /* identical to box height */
+        color: #FFFFFF;
+        margin: 20px;
+    }
+    .devide .image {
+        margin: 0;
+    }
+    .heading span {
+        font-size: 21px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .flex .column {
+        width: 90%;
+        height: 100%;
+    }
+    .display3 {
+        margin: 0px;
+    }
+    .success {
+        margin: 0;
+    }
+    .success h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        margin-top: 30px;
+        font-size: 26px;
+    }
+    .success h3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17.1268px;
+        line-height: 20px;
+        color: #536DFE;
+        margin: 10px;
+    }
+    .success p {
+        height: 45px;
+        left: 19px;
+        top: 1080px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13.3884px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+    }
+    .success button {
+        width: 99px;
+        height: 25px;
+        left: 138px;
+        top: 1125px;
+        background: #536DFE;
+        border: 0.520833px solid #000000;
+        box-sizing: border-box;
+        border-radius: 7.8125px;
+        margin: 0;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .cards .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 234px;
+        height: 106px;
+        left: 25px;
+        top: 1185px;
+        border: 1px solid #536DFE;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    .cards .card1 .left,
+    .card2 .left,
+    .card3 .left,
+    .card4 .left {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12.5965px;
+        line-height: 15px;
+        color: #3F3D56;
+    }
+    .container footer {
+        height: 160px;
+    }
+    .footer {
+        font-size: 16px;
+        /* height: 120px; */
+    }
+    .footer span {
+        margin: 10px;
+    }
+    .question {
+        width: 100%;
+        height: 100%;
+    }
+    .question .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .question .option {
+        width: 100%;
+    }
+    .question .option input {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 10px 20px;
+    }
+    .question .option span {
+        font-size: 23px;
+    }
+    .question .option p {
+        width: 270px;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 10px;
+    }
+    .question .option label {
+        font-size: 15px;
+    }
+    .question .image {
+        width: 250px;
+        height: 150px;
+        background-color: #6C63FF;
+    }
+    .question .buttons .previous {
+        margin: 10px;
+        width: 96px;
+        height: 29px;
+    }
+    .question .buttons .previous a,
+    .question .buttons .next a {
+        font-size: 16px;
+    }
+    .question .buttons .next {
+        margin: 10px;
+        width: 96px;
+        height: 29px;
+    }
+}
+
+
+/* buy now page   */
+
+.b_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ecf091;
+}
+
+.row {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    background-color: #fff
+}
+
+.background_img {
+    display: inline-block;
+    background: #6C63FF;
+    background-size: cover;
+    width: 375px;
+    height: 229px;
+}
+
+.background_img .setting {
+    display: inline-block;
+    margin: 10px;
+}
+
+.row .background_img .center {
+    height: 229px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.background_img p {
+    width: 141px;
+    height: 27.06px;
+    left: 124px;
+    top: 157px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.6364px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.row .background_img .img-responsive {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.row .background_img .setting {
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+}
+
+.row.background_img .image.center_image {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-size: 100% 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.row .form input {
+    display: block;
+    width: 280px;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.1622px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+}
+
+.buttons button {
+    width: 99px;
+    height: 25px;
+    left: 70px;
+    top: 450px;
+    background: #536DFE;
+    border: 0.520833px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7.8125px;
+    color: #FFFFFF;
+    margin: 10px 20px;
+}
+
+.buttons .join {
+    width: 99px;
+    height: 25px;
+    left: 70px;
+    top: 450px;
+    background: #fff;
+    border: 0.520833px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7.8125px;
+    color: #536DFE;
+}
+
+.buttons .join a {
+    text-decoration: none;
+    color: #536DFE;
+}
+
+.buttons button a {
+    text-decoration: none;
+    width: 52px;
+    height: 11px;
+    left: 30px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.1622px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+
+/* footer css start here  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 260px;
+    color: #fff;
+    background-color: #6C63FF;
+    border-top: 1px solid #6C63FF;
+    font-size: 22px;
+}
+
+footer span {
+    margin: 10px;
+}
+
+
+/* -----------------------------------------------question page css2 */
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.question .flex {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.option {
+    width: 600px;
+    height: auto;
+    /* border: 1px solid #6C63FF; */
+}
+
+.option span {
+    font-size: 32px;
+    font-weight: 500px;
+}
+
+.option p {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.option input {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 20px;
+}
+
+.option-1 label {
+    display: inline-block;
+    font-size: 22px;
+    margin: 10px 20px;
+}
+
+.question .image {
+    width: 300px;
+    height: 200px;
+    background-color: #6C63FF;
+}
+
+.buttons .previous {
+    width: 135px;
+    height: 41px;
+    border-radius: 18px;
+    margin: 0 20px;
+}
+
+.buttons .previous a {
+    font-size: 21px;
+}
+
+.buttons .next {
+    width: 135px;
+    height: 41px;
+    border-radius: 18px;
+    font-size: 21px;
+    background-color: #fff;
+    border: 1px solid #6C63FF;
+    margin: 0px 20px;
+}
+
+.buttons .next a {
+    font-size: 21px;
+    color: #6C63FF;
+}

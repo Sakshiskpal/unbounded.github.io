@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .time p {
+            display: inline-block;
+            align-items: right;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2><span class="bold">Un</span>boundEd</h2>
+        </div>
+        <div class="cls_option">
+            <select name="class" id="class">
+                <option value="class10"><a href="class_sub.html">class 10</a></option>
+                <option value="class12">class 12</option>
+            </select>
+        </div>
+    </div>
+    <div class="welcome">
+        <span>Solid States</span>
+        <div class="underline"></div>
+    </div>
+    <div class="time">
+        <p id="time"></p>
+    </div>
+    <div class="question">
+        <div class="flex">
+            <div class="option">
+                <span>Question- 1</span>
+                <p>hgttg nt gio ethii th jto y8te p tuu9 t u9 9u9tuo t u9tuot 9u9ut9uopj ru u9ry 0e yf 0iwrh r
+                </p>
+
+                <div class="option-1">
+                    <input type="radio" name="option" id="option 1"><label for="option 1">option 1
+                </label>
+                </div>
+                <div class="option-1">
+                    <input type="radio" name="option" id="option 2"><label for="option 2">option 2</label>
+                </div>
+                <div class="option-1">
+                    <input type="radio" name="option" id="option 3"><label for="option 3">option 3</label>
+                </div>
+                <div class="option-1">
+                    <input type="radio" name="option" id="option 4"><label for="option 4">option 4</label>
+                </div>
+            </div>
+            <div class="image">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="previous"><a href="#">previous</a></button>
+            <button class="next"><a href="#">Next</a></button>
+        </div>
+    </div>
+
+</body>
+<script>
+    setInterval(() => {
+        var date = new Date();
+        var minutes = date.getMinutes() + ":" + date.getSeconds();
+        var timeing = "document.getElementsById('time')";
+        timeing.innerHTML = minutes;
+        // console.log(minutes);
+    }, 1000);
+</script>
+
+</html>
